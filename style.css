@@ -66,3 +66,43 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+/* container to give central card look */
+.container{
+  max-width:900px;
+  margin:2rem auto;
+  padding:1.4rem;
+  background: #ffffff;
+  border-radius:12px;
+  box-shadow: 0 8px 24px rgba(8,27,49,0.06);
+}
+
+/* reset button area — visually separate */
+.controls{
+  margin-top:1.6rem;
+  display:flex;
+  justify-content:center;
+  padding:0.8rem;
+  background: linear-gradient(180deg, rgba(11,37,64,0.02), rgba(11,37,64,0.00));
+  border-radius:10px;
+  border: 1px solid rgba(11,37,64,0.04);
+}
+
+.controls .btn{
+  background: linear-gradient(90deg,#2b61a4,#3b82d6);
+  color:#fff;
+  border:none;
+  padding:0.6rem 1.1rem;
+  border-radius:10px;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow: 0 8px 20px rgba(43,97,164,0.12);
+  transition: transform .14s ease, box-shadow .14s ease;
+}
+
+.controls .btn:hover{ transform: translateY(-3px); box-shadow: 0 12px 28px rgba(43,97,164,0.18); }
+
+@media (max-width:640px){
+  .container{ margin:1rem; padding:1rem }
+  .controls{ padding:0.6rem }
+}

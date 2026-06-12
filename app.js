@@ -7,6 +7,7 @@ const msg = document.querySelector("#msg");
 
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
+const resetBtn = document.getElementById('reset');
 
 const genCompChoice = () => {
   const options = ["rock", "paper", "scissors"];
@@ -62,3 +63,13 @@ choices.forEach((choice) => {
     playGame(userChoice);
   });
 });
+
+function resetScores(){
+  userScore = 0;
+  compScore = 0;
+  if(userScorePara) userScorePara.innerText = userScore;
+  if(compScorePara) compScorePara.innerText = compScore;
+  if(msg){ msg.innerText = 'Scores reset. Play again!'; msg.style.backgroundColor = '#081b31'; }
+}
+
+if(resetBtn){ resetBtn.addEventListener('click', resetScores); }

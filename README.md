@@ -4,7 +4,7 @@ A responsive and interactive Rock Paper Scissors web application built using HTM
 
 ## 🔗 Live Demo
 
-**Try it here:** [Add Your Netlify Link]
+https://rockpapperscissors1.netlify.app/
 
 ## 📖 Project Overview
 
@@ -114,16 +114,6 @@ rock-paper-scissors/
 └── README.md
 ```
 
-## 📸 Screenshots
-
-### Home Screen
-
-(Add Screenshot Here)
-
-### Gameplay
-
-(Add Screenshot Here)
-
 ## 🚀 Future Enhancements
 
 * Persistent scores using Local Storage
@@ -151,9 +141,9 @@ Through this project, I gained practical experience in:
 
 Aspiring Full Stack Developer | B.Tech Student
 
-**GitHub:** https://github.com/yourusername
+**GitHub:** 
 
-**LinkedIn:** https://linkedin.com/in/yourprofile
+**LinkedIn:** https://www.linkedin.com/in/mohammad-naveed-5294b2333/
 
 ## ⭐ Support
 

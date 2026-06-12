@@ -141,7 +141,7 @@ Through this project, I gained practical experience in:
 
 Aspiring Full Stack Developer | B.Tech Student
 
-**GitHub:** 
+**GitHub:** https://github.com/mohammadnaveed1701-source
 
 **LinkedIn:** https://www.linkedin.com/in/mohammad-naveed-5294b2333/
 

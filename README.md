@@ -4,7 +4,7 @@ A responsive and interactive Rock Paper Scissors web application built using HTM
 
 ## 🔗 Live Demo
 
-https://rockpapperscissors1.netlify.app/
+https://rock-paper-scissors-game-uugl.vercel.app/
 
 ## 📖 Project Overview
 
